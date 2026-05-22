@@ -1,0 +1,20 @@
+Time Complexity is a way to measure how fast an algorithm runs as the input size grows.
+
+Instead of counting exact seconds (which depend on your machine), we focus on how the number of operations increases with input size n.
+
+🔹 Simple Idea
+
+If you have an input of size n, time complexity tells you:
+
+“How does the runtime grow when n becomes large?”
+
+
+
+| Complexity     | Meaning                             | Example                    |
+| -------------- | ----------------------------------- | -------------------------- |
+| **O(1)**       | Constant time (doesn’t depend on n) | Accessing an array element |
+| **O(log n)**   | Logarithmic (very fast growth)      | Binary search              |
+| **O(n)**       | Linear                              | Loop through array         |
+| **O(n log n)** | Efficient sorting                   | Merge sort                 |
+| **O(n²)**      | Quadratic (slow for large n)        | Nested loops               |
+| **O(2ⁿ)**      | Exponential (very slow)             | Recursive brute force      |
