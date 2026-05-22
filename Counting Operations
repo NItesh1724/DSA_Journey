@@ -1,0 +1,37 @@
+ 
+
+Constant:- It does not depends on the time. It is a constant time operation. 
+
+
+Linear 0(n):- If the Array size increases then time increases accoringly. 
+
+
+Quadratic 0(n2):-  Quadratic time complexity happens when the number of operations grows proportional to the square of the input size. 
+
+
+
+Logarithmic 0(log n):-   Logarithmic complexity happens when the problem size is reduced by a fixed fraction in every step. 
+
+ 
+N (logn):- This complexity is a combination of: 
+
+Linear → O(n)  
+
+Logarithmic → O(log n)  
+
+
+f(n)=n logn 
+
+It is faster than O(n²) and is considered very efficient for large datasets. 
+
+ 
+
+Exponential :- It is the opposite if the Logarithmic. Exponential complexity happens when the number of operations doubles with every additional input. 
+
+It grows extremely fast. 
+
+ 
+
+ 
+
+ 
